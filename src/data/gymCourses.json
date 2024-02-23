@@ -1,7 +1,9 @@
-[
+{
+  "programs": [
     {
       "id": 1,
-      "description": "Cardio Blast: A high-intensity cardio workout designed to improve cardiovascular health, burn calories, and increase endurance.",
+      "title": "Cardio Blast",
+      "description": "A high-intensity cardio workout designed to improve cardiovascular health, burn calories, and increase endurance.",
       "slug": "cardio-blast",
       "instructor": "John Smith",
       "isFeatured": true,
@@ -10,34 +12,38 @@
     },
     {
       "id": 2,
-      "description": "Strength Training: Build muscle, increase strength, and improve overall fitness with this resistance-based workout.",
+      "title": "Strength Training",
+      "description": "Build muscle, increase strength, and improve overall fitness with this resistance-based workout.",
       "slug": "strength-training",
       "instructor": "Emily Johnson",
       "isFeatured": true,
-      "image": "strength.jpg",
+      "image": "strength-training.jpg",
       "fees": 60
     },
     {
       "id": 3,
-      "description": "Yoga Flow: Find balance, flexibility, and inner peace with this gentle yet invigorating yoga practice.",
+      "title": "Yoga Flow",
+      "description": "Find balance, flexibility, and inner peace with this gentle yet invigorating yoga practice.",
       "slug": "yoga-flow",
       "instructor": "Sarah Thompson",
-      "isFeatured": false,
+      "isFeatured": true,
       "image": "yoga.jpg",
       "fees": 45
     },
     {
       "id": 4,
-      "description": "Powerlifting: Learn proper form and technique for the squat, bench press, and deadlift while gaining strength and confidence.",
+      "title": "Powerlifting",
+      "description": "Learn proper form and technique for the squat, bench press, and deadlift while gaining strength and confidence.",
       "slug": "powerlifting",
       "instructor": "Michael Davis",
-      "isFeatured": false,
+      "isFeatured": true,
       "image": "powerlifting.jpg",
       "fees": 65
     },
     {
       "id": 5,
-      "description": "Pilates Fusion: Strengthen your core, improve posture, and increase flexibility with a blend of Pilates and other fitness techniques.",
+      "title": "Pilates Fusion",
+      "description": "Strengthen your core, improve posture, and increase flexibility with a blend of Pilates and other fitness techniques.",
       "slug": "pilates-fusion",
       "instructor": "Jessica Roberts",
       "isFeatured": true,
@@ -45,4 +51,4 @@
       "fees": 55
     }
   ]
-  
+}
