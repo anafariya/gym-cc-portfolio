@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import FeaturedPrograms from "@/components/FeaturedPrograms";
 import Image from "next/image";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import GymTestimonials from "@/components/TestimonialCards";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection/>
       <FeaturedPrograms/>
       <WhyChooseUs/>
+      <GymTestimonials/>
     </main>
   );
 }

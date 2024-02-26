@@ -8,13 +8,13 @@ const {
 
 
 function addVariablesForColors({ addBase, theme }: any) {
-  const allColors = flattenColorPalette(theme('colors'));
-  const newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, value]) => [`--${key}`, value])
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
-
+ 
   addBase({
-    ':root': newVars,
+    ":root": newVars,
   });
 }
 function addSvgPatterns({ matchUtilities, theme }: any) {
@@ -51,8 +51,11 @@ const config: Config = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
+        
         spotlight: {
           "0%": {
             opacity: "0",
@@ -63,12 +66,19 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+        
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
     },
   },
   plugins: [addVariablesForColors, addSvgPatterns],
