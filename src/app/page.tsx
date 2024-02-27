@@ -3,6 +3,7 @@ import FeaturedPrograms from "@/components/FeaturedPrograms";
 import Image from "next/image";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import GymTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedPrograms/>
       <WhyChooseUs/>
       <GymTestimonials/>
+      <UpcomingWebinars/>
     </main>
   );
 }
