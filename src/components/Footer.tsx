@@ -7,12 +7,12 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Ana's Gym provides a holistic fitness experience designed to help
+            Ana&apos;s Gym provides a holistic fitness experience designed to help
             individuals achieve their wellness goals effectively. Our gym offers
             a diverse range of training programs tailored to suit various
             fitness levels and objectives. From personalized workout plans
             crafted by experienced trainers to group classes fostering
-            camaraderie and motivation, Ana's Gym caters to all fitness
+            camaraderie and motivation, Ana&apos;s Gym caters to all fitness
             enthusiasts.
           </p>
         </div>
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-center text-sm pt-8">
-        © 2024 Ana's Gym. All rights reserved.
+        &copy; 2024 Ana&apos;s Gym. All rights reserved.
       </p>
     </footer>
   );
