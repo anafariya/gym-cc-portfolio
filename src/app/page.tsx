@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import GymTestimonials from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Trainers from "@/components/Trainers";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <GymTestimonials/>
       <UpcomingWebinars/>
       <Trainers/>
+      <Footer/>
     </main>
   );
 }

@@ -7,7 +7,7 @@
       "slug": "cardio-blast",
       "instructor": "John Smith",
       "isFeatured": true,
-      "image": "cardio.jpg",
+      "image": "/cardio.jpg",
       "fees": 50
     },
     {
@@ -17,7 +17,7 @@
       "slug": "strength-training",
       "instructor": "Emily Johnson",
       "isFeatured": true,
-      "image": "strength-training.jpg",
+      "image": "/strength-training.jpg",
       "fees": 60
     },
     {
@@ -27,7 +27,7 @@
       "slug": "yoga-flow",
       "instructor": "Sarah Thompson",
       "isFeatured": true,
-      "image": "yoga.jpg",
+      "image": "/yoga.jpg",
       "fees": 45
     },
     {
@@ -37,7 +37,7 @@
       "slug": "powerlifting",
       "instructor": "Michael Davis",
       "isFeatured": true,
-      "image": "powerlifting.jpg",
+      "image": "/powerlifting.jpg",
       "fees": 65
     },
     {
@@ -47,7 +47,7 @@
       "slug": "pilates-fusion",
       "instructor": "Jessica Roberts",
       "isFeatured": true,
-      "image": "pilates.jpg",
+      "image": "/pilates.jpg",
       "fees": 55
     }
   ]
